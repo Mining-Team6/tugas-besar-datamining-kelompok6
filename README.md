@@ -82,6 +82,37 @@ Berdasarkan hasil di atas, **Random Forest** memiliki akurasi tertinggi, tetapi 
    Jika belum ada file requirements.txt, kamu bisa install manual:
    - pip install pandas scikit-learn matplotlib seaborn jupyter
 
+ ## Struktur Direktori
+
+ tube_data_mining/
+│
+├── data/                      # Folder untuk menyimpan dataset
+│   ├── raw/                   # Data mentah (belum diproses)
+│   └── processed/             # Data setelah preprocessing
+│
+├── notebook/                 # Jupyter Notebook interaktif
+│   ├── eda_template.ipynb     # Template untuk eksplorasi data
+│   ├── preprocessing_template.ipynb  # Template untuk preprocessing
+│   └── modeling_template.ipynb       # Template untuk pelatihan model
+│
+├── report/                   # Template laporan akhir
+│   ├── laporan-akhir_template.pdf
+│   ├── lampiran_template.docx
+│   └── struktur-lampiran.md
+│
+├── src/                      # Source code modular
+│   ├── data_loader.py         # Fungsi load dan simpan data
+│   ├── model.py               # Fungsi training model
+│   ├── utils.py               # Evaluasi model dan fungsi bantu
+│   ├── main.py                # Main pipeline untuk dijalankan via terminal
+│   └── main_notebook.ipynb    # Versi notebook dari main.py
+│
+├── run.sh                    # Script bash untuk menjalankan pipeline
+├── requirements.txt          # Daftar dependensi Python
+└── README.md                 # Dokumentasi ini
+
+## Lisensi
+Proyek ini bersifat open-source dan bebas digunakan untuk edukasi dan pengembangan pribadi.
 
 
    
