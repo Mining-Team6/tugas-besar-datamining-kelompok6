@@ -84,32 +84,35 @@ Berdasarkan hasil di atas, **Random Forest** memiliki akurasi tertinggi, tetapi 
 
  ## Struktur Direktori
 
- tube_data_mining/
+ ```
+shipment_delay_prediction/
 │
 ├── data/                      # Folder untuk menyimpan dataset
 │   ├── raw/                   # Data mentah (belum diproses)
 │   └── processed/             # Data setelah preprocessing
 │
-├── notebook/                 # Jupyter Notebook interaktif
-│   ├── eda_template.ipynb     # Template untuk eksplorasi data
-│   ├── preprocessing_template.ipynb  # Template untuk preprocessing
-│   └── modeling_template.ipynb       # Template untuk pelatihan model
+├── notebook/                  # Jupyter Notebook interaktif
+│   ├── eda.ipynb              # Eksplorasi awal dataset
+│   ├── preprocessing.ipynb    # Proses pembersihan dan transformasi
+│   └── modeling.ipynb         # Proses training dan evaluasi model
 │
-├── report/                   # Template laporan akhir
-│   ├── laporan-akhir_template.pdf
-│   ├── lampiran_template.docx
-│   └── struktur-lampiran.md
+├── report/                    # Template laporan akhir
+│   ├── laporan_akhir.pdf
+│   ├── lampiran.docx
+│   └── struktur_lampiran.md
 │
-├── src/                      # Source code modular
-│   ├── data_loader.py         # Fungsi load dan simpan data
-│   ├── model.py               # Fungsi training model
-│   ├── utils.py               # Evaluasi model dan fungsi bantu
-│   ├── main.py                # Main pipeline untuk dijalankan via terminal
-│   └── main_notebook.ipynb    # Versi notebook dari main.py
+├── src/                       # Source code modular
+│   ├── data_loader.py         # Fungsi untuk load dan simpan data
+│   ├── preprocessing.py       # Modul pembersihan data & fitur
+│   ├── model.py               # Modul training dan prediksi model
+│   ├── evaluate.py            # Evaluasi model dan visualisasi
+│   ├── utils.py               # Fungsi bantu lainnya
+│   └── main.py                # Pipeline utama (bisa dijalankan langsung)
 │
-├── run.sh                    # Script bash untuk menjalankan pipeline
-├── requirements.txt          # Daftar dependensi Python
-└── README.md                 # Dokumentasi ini
+├── run.sh                     # Script untuk menjalankan pipeline dari terminal
+├── requirements.txt           # Daftar dependensi Python
+└── README.md                  # Dokumentasi proyek
+```
 
 ## Lisensi
 Proyek ini bersifat open-source dan bebas digunakan untuk edukasi dan pengembangan pribadi.
