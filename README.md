@@ -54,12 +54,9 @@ Berdasarkan hasil di atas, **Random Forest** memiliki akurasi tertinggi, tetapi 
 1. Clone repository dari Github:
    Langkah pertama adalah mengunduh seluruh project dari Githu menggunakan perintah 'git clone' :
    ```bash
-   ```
    git clone https://github.com/Mining-Team6/tugas-besar-datamining-kelompok6.git
-   ```
-   ```
-   cd tugas-besar-datamining-kelompok6
-   ```
+   cd tugas-besar-datamining-kelompok6```
+
    
 3. Menjalankan dengan jupyter notebook :
    - install package yang diperlukan (jika belum) :
