@@ -56,7 +56,9 @@ Berdasarkan hasil di atas, **Random Forest** memiliki akurasi tertinggi, tetapi 
    ```bash
    git clone https://github.com/Mining-Team6/tugas-besar-datamining-kelompok6.git
    
-  ``` cd tugas-besar-datamining-kelompok6 ```
+  ``` 
+  cd tugas-besar-datamining-kelompok6
+  ```
 
    
 3. Menjalankan dengan jupyter notebook :
@@ -124,9 +126,9 @@ shipment_delay_prediction/
 ```
 
 ## Lisensi
-```
+
 Proyek ini bersifat open-source dan bebas digunakan untuk edukasi dan pengembangan pribadi.
-```
+
 
 
    
