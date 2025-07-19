@@ -53,21 +53,30 @@ Berdasarkan hasil di atas, **Random Forest** memiliki akurasi tertinggi, tetapi 
 
 1. Clone repository dari Github:
    Langkah pertama adalah mengunduh seluruh project dari Githu menggunakan perintah 'git clone' :
-   
    ```bash
+   ```
    git clone https://github.com/Mining-Team6/tugas-besar-datamining-kelompok6.git
+   ```
+   ```
    cd tugas-besar-datamining-kelompok6
+   ```
    
-2. Menjalankan dengan jupyter notebook :
+3. Menjalankan dengan jupyter notebook :
    - install package yang diperlukan (jika belum) :
+     ```
      pip install -r requirements.txt
+     ```
    - jalankan jupyter notebook :
+     ```
      jupyter notebook
+     ```
    - Navigasi ke folder src/ dan buka file :
+     ```
      main_notebook.ipynb
+     ```
    - Jalankan cell cell dari atas ke bawah
 
-3. Menjalankan di google colab :
+4. Menjalankan di google colab :
    Jika ingin menjalankan project di Google Colab:
    - Buka Google Colab: https://colab.research.google.com
    - Pilih tab "GitHub", lalu masukkan URL repository kamu.
@@ -78,9 +87,11 @@ Berdasarkan hasil di atas, **Random Forest** memiliki akurasi tertinggi, tetapi 
      * Upload file dataset jika belum otomatis tersedia (gunakan files.upload()).
      * Jalankan sel dari atas ke bawah.
     
-4. Install semua dependensi
+5. Install semua dependensi
    Jika belum ada file requirements.txt, kamu bisa install manual:
+   ```
    - pip install pandas scikit-learn matplotlib seaborn jupyter
+   ```
 
  ## Struktur Direktori
 
@@ -115,7 +126,9 @@ shipment_delay_prediction/
 ```
 
 ## Lisensi
+```
 Proyek ini bersifat open-source dan bebas digunakan untuk edukasi dan pengembangan pribadi.
+```
 
 
    
