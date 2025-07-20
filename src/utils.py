@@ -3,7 +3,8 @@
 """
 utils.py
 
-Modul ini berisi fungsi-fungsi bantu seperti visualisasi dan evaluasi metrik model . EDA (Exploratory Data Analysis).
+Modul ini berisi fungsi-fungsi bantu seperti visualisasi dan evaluasi metrik model.
+Digunakan dalam proses EDA (Exploratory Data Analysis) dan evaluasi performa prediksi.
 """
 
 import matplotlib.pyplot as plt
@@ -17,7 +18,7 @@ def plot_confusion_matrix(y_true, y_pred, labels=None, figsize=(6, 4), title="Co
     Parameters:
         y_true (array-like): Nilai target sebenarnya
         y_pred (array-like): Nilai prediksi
-        labels (list): Label klasifikasi
+        labels (list): Label klasifikasi (misal: [0, 1] atau ['Tepat Waktu', 'Terlambat'])
         figsize (tuple): Ukuran gambar
         title (str): Judul grafik
     """
@@ -27,6 +28,7 @@ def plot_confusion_matrix(y_true, y_pred, labels=None, figsize=(6, 4), title="Co
     plt.xlabel("Predicted")
     plt.ylabel("Actual")
     plt.title(title)
+    plt.tight_layout()
     plt.show()
 
 def print_classification_report(y_true, y_pred):
