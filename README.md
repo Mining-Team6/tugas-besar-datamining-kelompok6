@@ -106,9 +106,8 @@ shipment_delay_prediction/
 │   └── modeling.ipynb         # Proses training dan evaluasi model
 │
 ├── report/                    # Template laporan akhir
-│   ├── laporan_akhir.pdf
-│   ├── lampiran.docx
-│   └── struktur_lampiran.md
+│   ├── LAPORAN TUGAS BESAR DATA MINING.pdf
+│   └── Panduan Laporan Akhir.pdf
 │
 ├── src/                       # Source code modular
 │   ├── data_loader.py         # Fungsi untuk load dan simpan data
