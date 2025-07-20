@@ -94,7 +94,7 @@ Berdasarkan hasil di atas, **Random Forest** memiliki akurasi tertinggi, tetapi 
  ## Struktur Direktori
 
  ```
-shipment_delay_prediction/
+tugas-besar-datamining-kelompok6/
 │
 ├── data/                      # Folder untuk menyimpan dataset
 │   ├── raw/                   # Data mentah (belum diproses)
